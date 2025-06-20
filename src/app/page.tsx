@@ -11,7 +11,7 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <SectionWrapper className="bg-gradient-to-br from-primary/5 via-background to-accent/10 !pt-24 md:!pt-32 lg:!pt-40 !pb-16 md:!pb-20">
+      <SectionWrapper className="bg-gradient-to-br from-primary/5 via-background to-accent/10 !pt-15 md:!pt-20 lg:!pt-30 !pb-10 md:!pb-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-foreground mb-6 leading-tight">
@@ -30,9 +30,9 @@ export default function HomePage() {
             </div>
           </div>
           <div className="hidden md:block relative aspect-square">
-            <Image 
-              src="https://placehold.co/600x600.png" 
-              alt="Marketing strategy illustration" 
+            <Image
+              src="https://placehold.co/600x600.png"
+              alt="Marketing strategy illustration"
               layout="fill"
               objectFit="contain"
               className="rounded-lg"
@@ -110,7 +110,7 @@ export default function HomePage() {
         </div>
       </SectionWrapper>
 
-       {/* Call to Action Section */}
+      {/* Call to Action Section */}
       <SectionWrapper className="bg-primary text-primary-foreground">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6">Ready to Grow Your Business?</h2>
